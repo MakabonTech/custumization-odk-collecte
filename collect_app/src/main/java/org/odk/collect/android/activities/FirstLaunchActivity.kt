@@ -119,10 +119,11 @@ class FirstLaunchActivity : LocalizedActivity() {
                     .color(getThemeAttributeValue(context, com.google.android.material.R.attr.colorAccent)) {
                         append(getString(org.odk.collect.strings.R.string.try_demo))
                     }
+                //
+                // setOnClickListener {
+                //     viewModel.tryDemo()
+                // }
 
-                setOnClickListener {
-                    viewModel.tryDemo()
-                }
             }
         }
         lifecycle.addObserver(mdmConfigObserver)
