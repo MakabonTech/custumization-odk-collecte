@@ -835,7 +835,7 @@
   <!--##############################################
      # ABOUT
      ##############################################-->
-  <string name="about_preferences">À propos</string>
+  <string name="about_preferences"></string>
   <string name="tell_your_friends">Partager ODK Collect</string>
   <string name="tell_your_friends_msg">Vos collègues continuent-ils à collecter des données sur papier ? Partagez ODK Collect avec eux.</string>
   <string name="leave_a_review">Laissez un avis sur Play Store</string>
