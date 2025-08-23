@@ -3,7 +3,6 @@ package org.odk.collect.android.injection.config;
 import android.app.Application;
 
 import org.javarosa.core.reference.ReferenceManager;
-import org.odk.collect.android.activities.AboutActivity;
 import org.odk.collect.android.activities.AppListActivity;
 import org.odk.collect.android.activities.DeleteFormsActivity;
 import org.odk.collect.android.activities.FirstLaunchActivity;
@@ -134,7 +133,6 @@ public interface AppDependencyComponent {
 
     void inject(Collect collect);
 
-    void inject(AboutActivity aboutActivity);
 
     void inject(FormFillingActivity formFillingActivity);
 
